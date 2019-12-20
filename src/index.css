@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #E5E5E5;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.pokemon-checkbox {
+  width: 19px;
+height: 19px;
+position: relative;
+top: 20px;
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+}
+
+.pokemon-icon {
+  width: 72px;
+height: 72px;
+
+background: #EEEEEE;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 49px;
+}
+
+.pokemon-name {
+  font-size: 20px;
+  line-height: 40px;
+}
+

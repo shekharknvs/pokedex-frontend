@@ -1,0 +1,29 @@
+.p-drag-ul {
+  list-style: none;
+  margin:0;
+  padding:0
+}
+.p-drag-li {
+  padding: 5px;
+  background:#eee
+}
+
+.p-drag-card-button {
+  text-align: left;
+}
+
+.p-undo-button {
+  display: inline-block;
+    width: 250px;
+    text-align: center;
+    padding: 5px;
+    margin: 0 5px;
+    color: blue;
+}
+.p-delete-button {
+  display: inline-block;
+    width: 250px;
+    text-align: center;
+    padding: 5px;
+    color: red;
+}

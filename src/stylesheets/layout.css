@@ -1,0 +1,75 @@
+.p-layout {
+    height: 100vh;
+    width: 100%;
+    background: #FFCE31;
+    overflow: hidden;
+    border: 1px solid red;
+}
+
+.p-head {
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+  height: 150px;
+}
+
+.p-body {
+  width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    background: #ffff;
+    padding: 15px;
+    border: 1px solid;
+    height: calc(100% - 150px);
+
+}
+
+.p-tabs {
+  display: flex;
+  border-bottom: 1px solid #000;
+}
+
+.p-tab {
+  flex: 1;
+    margin: 5px;
+    text-align: center;
+    font-size: 25px;
+    vertical-align: middle;
+    border-bottom: 5px solid transparent;
+}
+.p-tab.active {
+  border-bottom: 5px solid #ddd;
+  transition: color 0.2s ease;
+}
+.p-content {
+  padding: 5px;
+  height: 100%;
+  position: relative;
+  text-align: center;
+}
+.p-open-save-model {
+
+  background-color:#1B1A80;
+	border-radius:28px;
+	border:1px solid #1B1A80;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+  text-shadow:0px 1px 8px #1B1ADD;
+  position: absolute;
+  z-index: 100;
+  bottom: 0;
+}
+
+.p-open-save-model:hover {
+	background-color:#1B1BBB;
+}
+/* .p-open-save-model:active {
+	position:relative;
+	top:1px;
+} */
